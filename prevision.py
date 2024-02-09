@@ -22,7 +22,6 @@ def previsao():
         ultimo_update = requisicao_dic["dt"]
 
         messagebox.showinfo("Previsão do tempo", f"Cidade: {city}\nTempo: {descricao}\nTemperatura: {temperatura} °C\nSensação térmica: {sensacao_termica} °C\nUmidade: {umidade}%\nPressão: {pressao} hPa\nChuva: {precipitacao} mm\nVisibilidade: {visibilidade} m\nÚltima atualização: {ultimo_update}")
-        #resultado = f"Cidade: {city}\nTempo: {descricao}\nTemperatura: {temperatura} °C\nSensação térmica: {sensacao_termica} °C\nUmidade: {umidade}%\nPressão: {pressao} hPa\nChuva: {precipitacao} mm\nVisibilidade: {visibilidade} m\nÚltima atualização: {ultimo_update}"
         resultado_label = Label(window, text=resultado, font=("Courier", 12))
         resultado_label.pack()
 
