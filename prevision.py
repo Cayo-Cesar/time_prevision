@@ -37,7 +37,7 @@ label.pack()
 city_name = Entry(window, font=("Courier", 12))
 city_name.pack()
 
-button = Button(window, text="Buscar", font=("Courier", 12), command=previsao)
+button = Button(window, text="Consultar", font=("Courier", 12), command=previsao)
 button.pack()
 
 window.mainloop()
